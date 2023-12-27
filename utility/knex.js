@@ -13,9 +13,5 @@ const db = knex({
         database: process.env.DB_NAME,
         port:5432
     },
-    migrations:{
-        tableName:'knex_m',
-        directory:'./migrations',
-    }
 });
 export default db;
