@@ -1,4 +1,4 @@
-import db from '../utlity/knex.js';
+import db from '../utility/knex.js';
 
 export const getUsers = async (id) => {
     if(id==null) {
