@@ -1,6 +1,6 @@
 // knexfile.js
 import dotenv from "dotenv"
-dotenv.config({ path: './utility/.env' });
+dotenv.config({ path: './.env' });
 export default {
     client: 'pg',
     connection: {
