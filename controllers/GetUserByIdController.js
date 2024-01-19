@@ -1,5 +1,4 @@
 import _ from 'lodash';
-
 import {getUsers} from '../models/models.js';
 export const getUserById = async (req, res , next) => {
     const id = parseInt(req.params.id);
